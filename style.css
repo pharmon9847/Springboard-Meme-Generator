@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+h3 {
+  text-align: center;
+  color: blueviolet;
+}
+
+/* #formWrapper {
+    background-color: aliceblue;
+  } */
+
+#formWrapper h1 {
+  margin: 5px;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  font-size: 30px;
+  margin: 5px;
+}
+
+input {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(248, 102, 4);
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 10em;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.completedMeme {
+  border-radius: 10px;
+  max-width: 500px;
+  position: relative;
+  overflow: hidden;
+  font-size: 0;
+  margin: 5px;
+  transition: 0.5s;
+}
+
+.completedMeme:hover {
+  color: red;
+  opacity: 0.5;
+}
+
+#memesHolder {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memeTextTop {
+  font-size: 40px;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-family: Impact, sans-serif;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.memeTextBottom {
+  font-size: 40px;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-family: Impact, sans-serif;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.memeImage {
+  max-width: 100%;
+}
