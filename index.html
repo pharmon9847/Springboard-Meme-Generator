@@ -14,18 +14,25 @@
 
       <form id="form">
         <label for="image">Image URL:</label>
-        <input type="url" id="imageInput" placeholder="paste image URL" />
+        <input
+          type="url"
+          id="imageInput"
+          placeholder="paste image URL"
+          required
+        />
         <label for="topText">Upper text of meme:</label>
         <input
           type="text"
           id="topTextInput"
-          placeholder="enter top text for meme (optional)"
+          placeholder="enter top text for meme"
+          required
         />
         <label for="bottomText">Lower text of meme:</label>
         <input
           type="text"
           id="bottomTextInput"
-          placeholder="enter bottom text for meme (optional)"
+          placeholder="enter bottom text for meme"
+          required
         />
         <button type="submit" style="float: right">Add Meme</button>
         <h3>(click on meme to erase from page)</h3>
